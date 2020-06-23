@@ -1,0 +1,40 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/aBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@+id/aList"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sendToB"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Send Message to Fragment B">
+        </Button>
+
+        <EditText
+            android:id="@+id/messageA"
+            android:background="@color/messageBackGround"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Text...">
+        </EditText>
+
+    </LinearLayout>
+
+
+</LinearLayout>
